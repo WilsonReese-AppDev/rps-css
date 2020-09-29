@@ -4,12 +4,26 @@
     } */
 
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 960px;
     }
 
     .row {
       display: flex;
       justify-content: space-between;
+    }
+
+    .row-center {
+      display: flex;
+      justify-content: center
     }
 
     .button { 
@@ -25,7 +39,7 @@
     }
 
     .one-third {
-      width: 32%;
+      width: 30%;
     }
 
     .player-card {
@@ -36,4 +50,15 @@
     .computer-card {
       border: thin red solid;
       width: 49%;
+    }
+
+    .outcome-card {
+      border: thin black solid;
+      background-color: yellow;
+      width: 66%;
+      text-align: center;
+    }
+
+    .mb {
+      margin-bottom: 10px;
     }
